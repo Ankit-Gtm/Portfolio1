@@ -1,0 +1,39 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="ContactPageStyle.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="PortfolioWebsite.html" >Home</a>
+            <a href="TempWorkInProgress.html">About</a>
+            <a href="TempWorkInProgress.html">Services</a>
+            <a href="Curriculum vitae.pdf" download="Curriculum vitae">Resume</a>
+            <a href="#" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in Touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="2e2b2426-7eb0-4924-ad71-476a36ce5303">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your E-mail" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <a><button type="submit">Submit</button></a>
+        </form>
+        <div class="contact-right">
+            
+        </div>
+    </div>
+</body>
